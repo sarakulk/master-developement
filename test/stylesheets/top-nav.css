@@ -1,0 +1,26 @@
+.top-nav{
+	float: right;
+}
+.container-fluid-custom{
+	margin-right: 147px;
+	background-color: #4a4f55;
+	width: 100%;
+}
+
+a{
+	color: white;
+}
+@media only screen and (max-width: 768px){
+	nav{
+		height:50px;
+		width:100%;
+	}
+	.container-fluid-custom{
+		height:50px;
+		width: 100%;
+	}
+	.top-nav{
+		visibility:hidden;
+	}
+	
+}
